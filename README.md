@@ -24,6 +24,6 @@ This project is an Arduino based automatic sliding door control system. This sys
 3. **PID Setup**  
    PID constants are used to control system response. The constants used can be tuned in lines **49-51** in the code:  
    ```cpp
-   floating kp = 0.8;   // Proportional constant
+   float kp = 0.8;   // Proportional constant
    float ki = 0.015; // Integral constant
-   floating kd = 0.6;   // Derived constants
+   float kd = 0.6;   // Derived constants
